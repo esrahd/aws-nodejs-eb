@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'HELLO BALIMMM <3'
+    title: 'HELLO WORLD'
     })
     res.status(200).end();
 })
